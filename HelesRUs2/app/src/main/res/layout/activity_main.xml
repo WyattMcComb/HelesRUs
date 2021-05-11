@@ -8,11 +8,12 @@
     tools:context="com.example.helesrus.MainActivity">
 
     <TextView
-        android:id="@+id/heleMovers"
+        android:id="@+id/heliMovers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hele Movers!"
+        android:text="Heli Movers!"
         android:textSize="40dp"
+        android:textColor="@color/teal_700"
         android:gravity="center"
         />
 
@@ -21,32 +22,35 @@
         android:layout_height="wrap_content"
         android:text="The Only Way To Safely Move Your House!"
         android:textSize="20dp"
+        android:textColor="@color/teal_700"
         android:gravity="center"
-        android:layout_below="@id/heleMovers"
+        android:layout_below="@id/heliMovers"
         />
 
-    <TextView
+    <Button
         android:id="@+id/contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Contact Us!"
         android:textSize="25dp"
         android:gravity="center"
+        android:textColor="@color/teal_700"
         android:layout_alignParentBottom="true"
         />
 
-    <TextView
+    <Button
         android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="More Information"
         android:textSize="25dp"
         android:gravity="center"
+        android:textColor="@color/teal_700"
         android:layout_above="@id/contact"
         />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/Helecopter" />
+        android:src="@drawable/helecopter1" />
 </RelativeLayout>
