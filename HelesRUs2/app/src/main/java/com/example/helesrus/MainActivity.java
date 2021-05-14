@@ -1,8 +1,11 @@
 package com.example.helesrus;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +13,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView contact = (TextView) findViewById(R.id.contact);
+
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent contactIntent = new Intent(MainActivity.this, Contact.class);
+                startActivity(contactIntent);
+            }
+
+        });
+
+            TextView info = (TextView) findViewById(R.id.info);
+
+        info.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick (View view){
+                Intent infoIntent = new Intent(MainActivity.this, MoreInfo.class);
+                startActivity(infoIntent);
+                }
+        });
     }
 }
