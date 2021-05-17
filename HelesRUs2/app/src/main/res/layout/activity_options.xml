@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:id="@+id/rootView"
+    tools:context="com.example.helesrus.Options"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renting Options"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartments: 900-0.                                   Town House: 2000-900.                          Farm House and Barn: 3000-2000.       Large House with Garage: 4000-3000.                                  Mansion: 4000 and above.                           All in square feet"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:textSize="20dp"
+        android:text="Apartment ($3,000)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:textSize="20dp"
+        android:text="Town House ($10,000)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:textSize="20dp"
+        android:text="Farm house and or Barn ($30,000)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:textSize="20dp"
+        android:text="Large House and Garage ($50,000)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:textSize="20dp"
+        android:text="Mansion ($100,000)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        />
+
+
+</LinearLayout>

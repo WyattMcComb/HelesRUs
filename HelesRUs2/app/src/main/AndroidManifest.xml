@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelesRUs">
-        <activity android:name=".Contact"></activity>
+        <activity android:name=".Options"></activity>
+        <activity android:name=".Contact" />
         <activity android:name=".MoreInfo" />
         <activity android:name=".MainActivity">
             <intent-filter>

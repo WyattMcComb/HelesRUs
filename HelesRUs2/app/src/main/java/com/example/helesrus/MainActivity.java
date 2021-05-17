@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-            TextView info = (TextView) findViewById(R.id.info);
+        TextView info = (TextView) findViewById(R.id.info);
 
         info.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -33,6 +33,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent infoIntent = new Intent(MainActivity.this, MoreInfo.class);
                 startActivity(infoIntent);
                 }
+        });
+
+        TextView options = (TextView) findViewById(R.id.options);
+
+        options.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                Intent optionsIntent = new Intent(MainActivity.this, Options.class);
+                startActivity(optionsIntent);
+            }
         });
     }
 }

@@ -36,4 +36,22 @@
         android:textSize="20dp"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'Absolutely great service! they got my home from Florida to Michigan in 20 minutes flat.'"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'5 Stars! They only lost half of my chimney!'"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:padding="15dp"
+        />
+
 </LinearLayout>

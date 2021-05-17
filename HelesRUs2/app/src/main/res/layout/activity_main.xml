@@ -48,6 +48,16 @@
         android:textColor="@color/teal_700"
         android:layout_above="@id/contact"
         />
+    <Button
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:layout_above="@id/info"
+        />
 
     <ImageView
         android:layout_width="match_parent"
