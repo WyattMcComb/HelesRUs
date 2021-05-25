@@ -18,63 +18,74 @@
         android:text="Renting Options"
         android:gravity="center"
         android:layout_gravity="center"
-        android:textSize="40dp"
+        android:textSize="40sp"
         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apartments: 900-0.                                   Town House: 2000-900.                          Farm House and Barn: 3000-2000.       Large House with Garage: 4000-3000.                                  Mansion: 4000 and above.                           All in square feet"
+        android:text="Apartments: 900-0. \nTown House: 2000-900.\nFarm House and Barn: 3000-2000.\nLarge House with Garage: 4000-3000.\nMansion: 4000 and above.\nAll in square feet"
         android:gravity="center"
         android:layout_gravity="center"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
-    <CheckBox
-        android:textSize="20dp"
-        android:text="Apartment ($3,000)"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/apartment"
+        android:textSize="20sp"
+        android:text="Apartment"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"/>
 
-    <CheckBox
-        android:textSize="20dp"
-        android:text="Town House ($10,000)"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/thouse"
+        android:textSize="20sp"
+        android:text="Town House"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"/>
 
-    <CheckBox
-        android:textSize="20dp"
-        android:text="Farm house and or Barn ($30,000)"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/fhouse"
+        android:textSize="20sp"
+        android:text="Farm house and or Barn"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"/>
 
-    <CheckBox
-        android:textSize="20dp"
-        android:text="Large House and Garage ($50,000)"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/houseg"
+        android:textSize="20sp"
+        android:text="Large House and Garage"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"/>
 
-    <CheckBox
-        android:textSize="20dp"
-        android:text="Mansion ($100,000)"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/mansion"
+        android:textSize="20sp"
+        android:text="Mansion"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Price:"
-        android:gravity="center"
-        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
         />
 
     <TextView
+        android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="35sp"
         />
 
 
