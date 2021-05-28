@@ -36,7 +36,16 @@
 
     <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="473dp"
+        android:src="@drawable/phone" />
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/phone"/>
+        android:text="(Text or email us the service you want and we will respond with a time frame in which your service can be expected to be done. Any complaints will be ignored or sent to our HR department."
+        android:layout_gravity="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        />
 
 </LinearLayout>

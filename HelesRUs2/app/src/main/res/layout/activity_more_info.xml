@@ -9,7 +9,6 @@
     android:paddingTop="16dp"
     android:orientation="vertical"
     android:id="@+id/rootView"
-    android:background="@drawable/heliheli"
     tools:context="com.example.helesrus.MoreInfo"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -61,6 +60,11 @@
         android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:src="@drawable/heliheli" />
 
     <TextView
         android:layout_width="match_parent"
