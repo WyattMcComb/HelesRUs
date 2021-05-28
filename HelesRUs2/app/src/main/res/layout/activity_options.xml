@@ -88,5 +88,11 @@
         android:textSize="35sp"
         />
 
+    <ImageView
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/helecopter1"
+        />
+
 
 </LinearLayout>
