@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context="com.example.helesrus.MainActivity">
 
@@ -14,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Heli Movers!"
         android:textSize="40dp"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/white"
         android:gravity="center"
         />
 
@@ -23,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="The Only Way To Safely Move Your House!"
         android:textSize="20dp"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/white"
         android:paddingTop="15dp"
         android:gravity="center"
         android:layout_below="@id/heliMovers"
@@ -36,7 +37,7 @@
         android:text="Contact Us!"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         />
 
@@ -47,7 +48,7 @@
         android:text="More Information"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/white"
         android:layout_above="@id/contact"
         />
     <Button
@@ -57,7 +58,7 @@
         android:text="Prices"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/white"
         android:layout_above="@id/info"
         />
 

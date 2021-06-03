@@ -8,6 +8,7 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:orientation="vertical"
+    android:background="@color/black"
     android:id="@+id/rootView"
     tools:context="com.example.helesrus.Options"
     xmlns:tools="http://schemas.android.com/tools">
@@ -18,6 +19,7 @@
         android:text="Renting Options"
         android:gravity="center"
         android:layout_gravity="center"
+        android:textColor="@color/white"
         android:textSize="40sp"
         />
 
@@ -26,6 +28,7 @@
         android:layout_height="wrap_content"
         android:text="Apartments: 900-0. \nTown House: 2000-900.\nFarm House and Barn: 3000-2000.\nLarge House with Garage: 4000-3000.\nMansion: 4000 and above.\nAll in square feet"
         android:gravity="center"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:textSize="20sp"
         />
@@ -75,6 +78,7 @@
         android:layout_height="wrap_content"
         android:text="Price:"
         android:layout_gravity="center"
+        android:textColor="@color/white"
         android:textSize="30sp"
         />
 
@@ -83,8 +87,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
+        android:textColor="@color/white"
         android:layout_gravity="center"
-        android:textColor="@color/black"
         android:textSize="35sp"
         />
 
