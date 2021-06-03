@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="helisrus@gmail.com"
+        android:paddingTop="15dp"
         android:layout_gravity="center"
         android:textSize="20dp"/>
 
@@ -31,18 +32,19 @@
         android:layout_height="wrap_content"
         android:text="Or Text Us At 1-800-988-8300"
         android:layout_gravity="center"
+        android:paddingTop="15dp"
         android:textColor="@color/teal_700"
         android:textSize="20dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="473dp"
+        android:layout_height="436dp"
         android:src="@drawable/phone" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="(Text or email us the service you want and we will respond with a time frame in which your service can be expected to be done. Any complaints will be ignored or sent to our HR department."
+        android:text="(Text or email us the service you want and we will respond with a time frame in which your service can be expected to be done. Any complaints will be ignored or sent to our HR department)"
         android:layout_gravity="center"
         android:textColor="@color/teal_700"
         android:textSize="20dp"

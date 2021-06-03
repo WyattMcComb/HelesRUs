@@ -9,6 +9,7 @@
 
     <TextView
         android:id="@+id/heliMovers"
+        android:paddingTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Heli Movers!"
@@ -23,6 +24,7 @@
         android:text="The Only Way To Safely Move Your House!"
         android:textSize="20dp"
         android:textColor="@color/teal_700"
+        android:paddingTop="15dp"
         android:gravity="center"
         android:layout_below="@id/heliMovers"
         />
