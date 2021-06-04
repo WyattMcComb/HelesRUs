@@ -37,7 +37,7 @@
         android:text="Contact Us!"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_alignParentBottom="true"
         />
 
@@ -48,7 +48,7 @@
         android:text="More Information"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_above="@id/contact"
         />
     <Button
@@ -58,7 +58,7 @@
         android:text="Prices"
         android:textSize="25dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_above="@id/info"
         />
 
